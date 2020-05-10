@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Trillo</title>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="C:\Users\DELL I5\Downloads\Desktop\Trillo\css\style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	 <!-- <link rel="shortcut icon" type="image/png" href="../img/favicon.png"> -->
+</head>
+<body>
+    <div class="container">
+    	<header class="header">
+    		<img src="../images/logo.png" alt="logo" class="logo">
+
+    		<form action="#" class="search">
+    			<input type="text" class="search__input" placeholder="search hotels">
+    			<button class="search__button">
+                    <i class="fa fa-search search__icon" aria-hidden="true" style="font-size: 2rem;"></i>
+
+    				<!-- <svg class="search__icon">
+    					<use xlink href="..\images\sprite.svg#icon-magnifying-glass"></use>
+    				</svg> -->
+    			</button>
+    		</form>
+            <nav class="user-nav">
+                <div class="user-nav__icon-box">
+                    <i class="fa fa-bookmark user-nav__icon" aria-hidden="true" style="font-size: 2.5rem;"></i>
+                    <span class="user-nav__notification">7</span>
+                </div>
+                 <div class="user-nav__icon-box">
+                   <i class="fa fa-comments user-nav__icon"  aria-hidden="true" style="font-size: 2.5rem;"></i>
+                   <span class="user-nav__notification">13</span>
+
+                </div>
+                <div class="user-nav__user">
+                    <img src="../images/user.jpg" alt="jbvj" class="user-nav__user-photo">
+                    <span class="user-nav__user-name">jonas</span>
+                </div>
+            </nav>
+    		
+    	</header>
+    	<div class="content">
+    		<nav class="sidebar">
+    			<ul class="side-nav">
+                  <li class="side-nav__item side-nav__item--active">
+                      <a href="#" class="side-nav__link">
+                          <i class="fa fa-home side-nav__icon" aria-hidden="true" style="font-size: 2rem;" ></i>
+                          <span>Hotel</span>
+                      </a>
+                  </li>
+                   <li class="side-nav__item">
+                      <a href="#" class="side-nav__link">
+                          <!-- <i class="fa fa-home side-nav__icon" aria-hidden="true" ></i> -->
+                          <i class="fa fa-plane side-nav__icon" aria-hidden="true" style="font-size: 2rem;"></i>
+                          <span>Flight</span>
+                      </a>
+                  </li>
+                   <li class="side-nav__item">
+                      <a href="#" class="side-nav__link">
+                          <!-- <i class="fa fa-home side-nav__icon" aria-hidden="true" ></i> -->
+                          <i class="fa fa-key side-nav__icon" aria-hidden="true"style="font-size: 2rem;"></i>
+                          <span>Car-rental</span>
+                      </a>
+                  </li>
+                   <li class="side-nav__item">
+                      <a href="#" class="side-nav__link">
+                          <!-- <i class="fa fa-home side-nav__icon" aria-hidden="true" ></i> -->
+                          <i class="fa fa-map side-nav__icon" aria-hidden="true" style=" font-size: 2rem;"></i>
+                          <span>Tours</span>
+                      </a>
+                  </li>         
+                </ul>
+                <div class="legal">
+                    &copy;by 2020 .All rights reserved
+                </div>
+    		</nav>
+    		<main class="hotel-view">
+    			<div class="gallery">
+                    <figure class="gallery__item">
+                        <img src="../images/hotel-1.jpg" alt="hsvch" class="gallery__photo">
+                    </figure>
+                    <figure class="gallery__item">
+                        <img src="../images/hotel-2.jpg" alt="hsvch" class="gallery__photo">
+                    </figure>
+                    <figure class="gallery__item">
+                        <img src="../images/hotel-3.jpg" alt="hsvch" class="gallery__photo">
+                    </figure>
+                </div>
+                <div class="overview">
+                    <h1 class="overview__heading">HOTEL LAS PALMAS</h1>
+                    <div class="overview__stars">
+                        <i class="fa fa-star overview__icon-star  " style="font-size: 2rem;" aria-hidden="true"></i>
+                        <i class="fa fa-star overview__icon-star" style="font-size: 2rem;" aria-hidden="true"></i>
+                        <i class="fa fa-star overview__icon-star" style="font-size: 2rem;" aria-hidden="true"></i>
+                        <i class="fa fa-star overview__icon-star" style="font-size: 2rem;" aria-hidden="true"></i>
+                        <i class="fa fa-star overview__icon-star" style="font-size: 2rem;" aria-hidden="true"></i>
+                    </div>
+                    <div class="overview__location">
+                        <i class="fa fa-map-marker overview__icon-location" style="font-size: 2rem;" aria-hidden="true"></i>
+                        <button class="btn-inline">Maldives</button>
+                    </div>
+                    <div class="overview__rating">
+                        <div class="overview__rating-average">
+                            8.6
+                        </div>
+                        <div class="overview__rating-count">
+                            429 votes
+                        </div>
+                    </div>
+                </div>
+                <div class="detail">
+                    <div class="description">
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit corporis ratione eveniet cupiditate. Quibusdam non, mollitia itaque sunt quas aspernatur id iure, qui repudiandae similique? Soluta quidem voluptates delectus esse.
+                        </p>
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores distinctio voluptatum ducimus porro laudantium sapiente, ex ipsam obcaecati, et id.
+                        </p>
+                        <ul class="list">
+                            <li class="list__item">Close to the beach</li>
+                            <li class="list__item">Breakfast included</li>
+                            <li class="list__item">Free airport shuttle</li>
+                            <li class="list__item">Free wifi in all rooms</li>
+                            <li class="list__item">Air conditioning and heating</li>
+                            <li class="list__item">Pets allowed</li>
+                            <li class="list__item">We speak all languages</li>
+                            <li class="list__item">Perfect families</li>
+                        </ul>
+                        <div class="recommend">
+                            <p class="recommend__count">
+                                Lucy and 3 other three friends recommend this hotel.
+                            </p>
+                            <div class="recommend__friends">
+                                <img src="../images/user-3.jpg" alt="hsvh" class="recommend__photo">
+                                <img src="../images/user-4.jpg" alt="hsvh" class="recommend__photo">
+                                <img src="../images/user-5.jpg" alt="hsvh" class="recommend__photo">
+                                <img src="../images/user-6.jpg" alt="hsvh" class="recommend__photo">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-reviews">
+                        <figure class="review">
+                            <blockquote class="review__text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et autem reiciendis quos veniam architecto molestias.
+                            </blockquote>
+                            <figcaption class="review__user">
+                                <img src="../images/user-1.jpg" alt="" class="review__photo">
+                                <div class="review__user-box">
+                                    <p class="review__user-name">
+                                        Nick smith
+                                    </p>
+                                    <p class="review__user-date">may 10,2020</p>
+                                </div>
+                                <div class="review__rating">7.8</div>
+                            </figcaption>
+                        </figure>
+                        <figure class="review">
+                            <blockquote class="review__text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et autem reiciendis quos veniam architecto molestias.
+                            </blockquote>
+                            <figcaption class="review__user">
+                                <img src="../images/user-2.jpg" alt="" class="review__photo">
+                                <div class="review__user-box">
+                                    <p class="review__user-name">
+                                        Shwet smith
+                                    </p>
+                                    <p class="review__user-date">may 10,2020</p>
+                                </div>
+                                <div class="review__rating">9.8</div>
+                            </figcaption>
+                        </figure>
+                        <button class="btn-inline">show all<span>&rarr;</span></button>
+                    </div>
+                    
+                </div>
+                <div class="cta">
+                        <h2 class="cta__book-now">
+                            Good news! we have four rooms selected for your date!!
+                        </h2>
+                        <button class="btn">
+                            <span class="btn__visible">Book now</span>
+                            <span class="btn__invisible">Only 4 rooms left</span>
+                        </button>
+                    </div>
+    		</main>
+    	</div>
+    </div>
+</body>
+</html>
